@@ -73,5 +73,7 @@ const resolvers = {
           );
 
         return book;
-    }
-}
+    },
+};
+
+module.exports = resolvers;

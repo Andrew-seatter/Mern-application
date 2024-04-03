@@ -6,3 +6,5 @@ type User {
     savedBooks: [Job]
 }
 `;
+
+module.exports = typeDefs;
