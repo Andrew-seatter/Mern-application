@@ -32,7 +32,7 @@ const startApolloServer = async () => {
     });
 } 
 
-app.use(routes);
+
 
   db.once('open', () => {
     app.listen(PORT, () => {
